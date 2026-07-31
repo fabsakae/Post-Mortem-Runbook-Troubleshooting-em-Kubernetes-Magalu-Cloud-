@@ -94,4 +94,3 @@ Saída do comando: sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) 
   ```bash
   kubectl rollout restart deployment/cloud-application
   ```
-3. 
