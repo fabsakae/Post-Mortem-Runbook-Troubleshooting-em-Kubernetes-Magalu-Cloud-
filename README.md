@@ -105,4 +105,4 @@ Antes de atuar na restauração do serviço, validamos o comportamento dos recur
 3. **Análise de CPU e Estabilidade:**
    A dashboard de recursos do Kubernetes por *Pod* permitiu monitorar o consumo de CPU da instância `cloud-application`, confirmando a estabilidade operacional antes da injeção de falhas de resiliência.
 
-   ![Monitoramento de CPU no Grafana para o Pod da Aplicação](docs/images/grafana_observabilidade_pod.png)
+   ## captura de tela em docs/images
