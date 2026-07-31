@@ -94,3 +94,15 @@ Saída do comando: sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) 
   ```bash
   kubectl rollout restart deployment/cloud-application
   ```
+
+### A Comprovação Visual (Observabilidade)
+
+Antes de atuar na restauração do serviço, validamos o comportamento dos recursos computacionais da aplicação através da stack de monitoramento integrada (Prometheus e Grafana).
+
+1. **Acesso ao Painel de Monitoramento:**
+   O Grafana foi exposto de forma segura via Helm (`kube-prometheus-stack`), permitindo o acompanhamento em tempo real das métricas de infraestrutura dos pods.
+   
+3. **Análise de CPU e Estabilidade:**
+   A dashboard de recursos do Kubernetes por *Pod* permitiu monitorar o consumo de CPU da instância `cloud-application`, confirmando a estabilidade operacional antes da injeção de falhas de resiliência.
+
+   ![Monitoramento de CPU no Grafana para o Pod da Aplicação](docs/images/grafana_observabilidade_pod.png)
