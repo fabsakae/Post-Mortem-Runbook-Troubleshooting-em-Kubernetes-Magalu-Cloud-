@@ -105,4 +105,4 @@ Antes de atuar na restauração do serviço, validamos o comportamento dos recur
 3. **Análise de CPU e Estabilidade:**
    A dashboard de recursos do Kubernetes por *Pod* permitiu monitorar o consumo de CPU da instância `cloud-application`, confirmando a estabilidade operacional antes da injeção de falhas de resiliência.
 
-   ## captura de tela em docs/images
+   ## captura de tela em https://github.com/fabsakae/Post-Mortem-Runbook-Troubleshooting-em-Kubernetes-Magalu-Cloud-/tree/main/docs/images
